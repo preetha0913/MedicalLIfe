@@ -1,0 +1,128 @@
+.container {
+    width: 860px;
+    margin: 0 auto;
+  }
+  
+  .comment {
+    position: relative;
+  }
+  
+  .timeline {
+    border-left: 3px solid #506b86;
+    position: absolute;
+    top: 65px;
+    /* left: -21px; */
+    height: 90%;
+}
+  .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #506b86;
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    
+  }
+  span.icon {
+    font-size: 30px;
+    color: white;
+    margin-left: 12px;
+}
+.circles {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #506b86;
+    position: absolute;
+    left: -25px;
+    top: 60px;
+}
+.circlesone {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #506b86;
+    position: absolute;
+    left: -25px;
+    top: 100px;
+}
+.commentsone {
+    margin-left: 40px;
+    /* margin-top: 40px; */
+    padding-top: 20px;
+}
+.commentstwo {
+    margin-left: 40px;
+    /* margin-top: 40px; */
+    padding-top: 80px;
+}
+.commentsthree {
+    margin-left: 40px;
+    /* margin-top: 40px; */
+    padding-top: 110px;
+}
+.timelineone {
+    border-left: 3px solid #506b86;
+    position: absolute;
+    top: 120px;
+    /* left: -21px; */
+    height: 85%;
+}
+section.way-section {
+    background-color: #fff18e;
+    /* max-height: 1220%; */
+    height: 500px;
+    margin-top: 20px;
+}
+h4.heading-waytoscuecss {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+button.buttondowload {
+    background-color: white;
+    color: black;
+    /* text-align: center; */
+    /* width: 30px; */
+    height: 50px;
+    border-radius: 40px;
+    width: 200px;
+background-color: #ffdf44;
+}
+section.dowload {
+    height: 300px;
+    
+}
+.dowload-button {
+    text-align: center;
+    /* margin-top: 3px; */
+    padding-top: 60px;
+    /* width: 30px; */
+}
+.dowload-head {
+    text-align: center;
+    padding-top: 30px;
+}
+h2.heading-center-align {
+    font-size: 22px;
+    color: #070707;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+img.mindmap {
+    /* margin: 50px; */
+    margin-left: 50px;
+}
+@media only screen and (max-width: 768px) {
+    section.way-section {
+        background-color: #fff18e;
+        /* max-height: 1220%; */
+        height: 300px;
+        margin-top: 200px;
+    }
+    img.mindmap {
+        /* margin: 50px; */
+         margin-left: 0px; 
+    }
+  }
